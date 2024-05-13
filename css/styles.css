@@ -68,7 +68,7 @@ header #navbar .nav-profile {
   width: 50px;
 }
 
-/* MAIN - PRODUTO */
+/* MAIN - DESCRIÇÃO DO PRODUTO */
 
 main {
   max-width: 1110px;
@@ -77,8 +77,6 @@ main {
 
 main #text-product {
   max-width: 445px;
-  float: right;
-  padding-bottom: 132px;
 }
 
 main #text-product .company {
@@ -211,4 +209,37 @@ main #text-product .add-to-cart {
 
 main #text-product .add-to-cart .btn-icon {
   margin-right: 15px;
+}
+
+/* MAIN - GALERIA DO PRODUTO */
+
+main .container {
+  display: flex;
+  justify-content: center;
+  gap: 125px;
+  margin-bottom: 132px;
+}
+
+main .gallery {
+  padding-top: 90px;
+}
+
+main .gallery .main-img {
+  width: 100%;
+  max-width: 445px;
+  display: block;
+  margin-bottom: 32px;
+}
+
+main .gallery .thumbnails {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  gap: 31px;
+}
+
+main .gallery .thumbnail,
+.thumbnail-select {
+  width: 100%;
+  max-width: 88px;
 }
