@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 84px;
+  max-width: 1110px;
+  margin: 0 auto;
+  border-bottom: 1px solid #e4e9f2;
+}
+
+header #navbar {
+  margin: 28px auto 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header #navbar .nav-brand-list {
+  display: flex;
+  gap: 57px;
+}
+
+header #navbar .nav-list {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 15px;
+  line-height: 26px;
+}
+
+header #navbar .nav-list a {
+  text-decoration: none;
+  color: #69707d;
+}
+
+header #navbar .nav-cart-img {
+  display: flex;
+  align-items: center;
+  gap: 46px;
+}
+
+header #navbar .nav-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header #navbar .nav-profile {
+  width: 50px;
+}
