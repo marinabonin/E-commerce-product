@@ -127,13 +127,13 @@ main #text-product .discount {
   font-family: "Kumbh Sans";
   font-size: 16px;
   font-weight: 700;
-  width: 51px;
+  padding-left: 8px;
+  padding-right: 8px;
   height: 27px;
   border-radius: 6px;
   background-color: #ffeee2;
 
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
