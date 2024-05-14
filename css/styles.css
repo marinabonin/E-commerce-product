@@ -91,12 +91,12 @@ header #navbar .nav-cart-img .nav-cart:hover path {
 
 header #navbar .nav-profile {
   width: 50px;
+  border-radius: 50px;
+  transition: color 0.1s;
 }
 
 header #navbar .nav-cart-img .nav-profile:hover {
   border: 2px solid #ff7e1b;
-  border-radius: 50px;
-  transition: color 0.1s;
 }
 
 /* MAIN - DESCRIÇÃO DO PRODUTO */
@@ -273,8 +273,8 @@ main .gallery .thumbnails {
   gap: 31px;
 }
 
-main .gallery .thumbnail,
-.thumbnail-select {
+.gallery .thumbnail,
+.gallery .thumbnail-select {
   width: 100%;
   max-width: 88px;
   cursor: pointer;
