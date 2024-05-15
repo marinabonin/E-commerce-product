@@ -340,8 +340,7 @@ main #text-product .btns .add-to-cart:hover {
     position: relative;
   }
   main .container .gallery .main-img {
-    width: 100%;
-    max-width: 1110px;
+    max-width: 100%;
     border-radius: 0;
     margin-bottom: 0;
   }
@@ -353,12 +352,14 @@ main #text-product .btns .add-to-cart:hover {
     border: none;
   }
   main .container .gallery .left {
-    top: 44%;
+    top: 50%;
     left: 16px;
+    transform: translateY(-50%);
   }
   main .container .gallery .right {
-    top: 44%;
+    top: 50%;
     right: 16px;
+    transform: translateY(-50%);
   }
   main .container .gallery .thumbnail,
   main .container .gallery .thumbnail-select {
@@ -366,7 +367,7 @@ main #text-product .btns .add-to-cart:hover {
   }
   main .container #text-product {
     width: 100%;
-    max-width: 1110px;
+    max-width: 100%;
     padding: 0 24px 0;
   }
   main .container #text-product .company {
@@ -397,7 +398,7 @@ main #text-product .btns .add-to-cart:hover {
   }
   main .container #text-product .btns .more-less-btn {
     margin-bottom: 16px;
-    max-width: 1110px;
+    max-width: 100%;
   }
   main .container #text-product .btns .less {
     padding: 26px 0 26px 24px;
@@ -406,7 +407,7 @@ main #text-product .btns .add-to-cart:hover {
     padding: 26px 24px 26px 0;
   }
   main .container #text-product .btns .add-to-cart {
-    max-width: 1110px;
+    max-width: 100%;
     box-shadow: 0px 20px 50px -20px #ff7e1b;
   }
 }
